@@ -7,7 +7,7 @@ scripts :
   - docker images mubeen636/node
 
 before-deploy : 
-  -docker login -u mubeen636 -p d3ng3y@6036
+  - docker login -u mubeen636 -p d3ng3y@6036
 
 deploy : 
   provider : script
