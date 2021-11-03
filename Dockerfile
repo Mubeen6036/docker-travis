@@ -1,5 +1,5 @@
 FROM node
-RUN mkdir /ur/src/app
+RUN mkdir -p /ur/src/app
 WORKDIR /usr/src/app
 
 ENV PATH /usr/scr/app/node_modules/.bin:$PATH
